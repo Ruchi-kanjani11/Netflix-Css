@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+html body {
+    font-family: "Nunito", sans-serif;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* navbar section start */
+
+ul li {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.search {
+    margin-right: 2.5rem;
+}
+
+.search a {
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search a i {
+    font-size: 20px;
+
+}
+
+.search li a .fa-circle-user {
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #e6e4e4;
+    color: #00050d;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+nav ul li a:hover svg {
+    fill: #00050d;
+}
+
+header nav ul:last-child li:not(:nth-child(2), :last-child) a {
+    border-radius: 50%;
+    padding: 10px 12px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header nav .search li:last-child a {
+    background-color: #165f9bf3;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+header nav .search li:last-child a:hover {
+    background-color: #028cfe;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #00050d;
+    padding: 10px 21px;
+
+}
+
+.navbar .logo {
+    width: 96px;
+    margin: .5rem 2.5rem;
+}
+
+svg {
+    fill: #fff;
+    width: 22px;
+}
+
+/* navbar section end */
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* signin section start */
+
+.signin {
+    background-image: url('../images/bg1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px;
+}
+
+.signin .content {
+    color: #fff;
+
+}
+
+.signin .content a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 21px;
+    background-color: #fff;
+    color: #00050d;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.signin .content a:hover {
+    color: #4a4646;
+    transform: scale(1.05);
+}
+
+.signin .content h1 {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.signin .content p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+/* signin section end */
+
+/* rental section start */
+
+.rental {
+    background-image: url('../images/bg2.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.rental .content1 {
+    color: #fff;
+}
+
+.rental .content1 a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 21px;
+    background-color: #fff;
+    color: #00050d;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.rental .content1 a:hover {
+    color: #4a4646;
+    transform: scale(1.05);
+}
+
+.rental .content1 h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+
+.rental .content1 p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+/* rental section end */
+
+/* subscription section start */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 5px;
+}
+
+.subscription {
+    background-color: #00050d;
+    padding: 72px;
+}
+
+.subscription .text {
+    color: #fff;
+}
+
+.subscription .text h1 {
+    font-size: 45px;
+    padding-bottom: 40px;
+
+}
+
+.subscription .text p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscription .image-items img{
+    border-radius: 20px;
+}
+
+.subscription .image-items img:hover{
+    box-shadow: #333 0px 14px 28px, #333 0px 10px 10px;
+}
+
+/* subscription section end */
+
+.copyright{
+    background-color: #222222;
+    padding: 24px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.copyright .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright .logo2{
+    width: 105px;
+
+}
+
+.copyright .content2 ol li{
+    list-style: none;
+}
+
+.copyright .content2 ol li a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    color: #79b8f3;
+    margin: 4px 0px  0px 14px;
+}
+.copyright .text1 p{
+    color: #8197a4;
+    margin-top: 14px;
+}
+.copyright .content2 ol li a:hover{
+    color: #abc7e1;
+}
